@@ -3,7 +3,9 @@ var project = mongoose.Schema({
     name: String,
     description: String,
     langs:String,
-    repository: String
+    year: Number,
+    repository: String,
+    image: String
 
 });
 
